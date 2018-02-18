@@ -19,7 +19,8 @@ RUN apt-get -qq update && \
 	unzip liferay-ce-portal-tomcat-7.0-ga5-20171018150113838.zip && \
 	rm liferay-ce-portal-tomcat-7.0-ga5-20171018150113838.zip && \
 	rm -rf $CATALINA_HOME/work/* && \
-	mkdir -p $LIFERAY_HOME/data/document_library
+	mkdir -p $LIFERAY_HOME/data/document_library && \
+	mkdir -p $LIFERAY_HOME/data/elasticsearch/indices
 
 COPY ./configs/setenv.sh $CATALINA_HOME/bin/setenv.sh
 
