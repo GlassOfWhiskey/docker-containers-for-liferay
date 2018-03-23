@@ -6,3 +6,4 @@
 - Liferay 7.0.4 GA5 Dev
 - Liferay 7.1.0 M1
 - Liferay 7.1.0 M1 Dev
+- Elasticsearch 2.4
