@@ -6,7 +6,7 @@ WORKDIR /usr/local
 ENV LIFERAY_HOME=/usr/local/liferay-ce-portal-7.0-ga6
 ENV CATALINA_HOME=$LIFERAY_HOME/tomcat-8.0.32
 ENV PATH=$CATALINA_HOME/bin:$PATH
-ENV LIFERAY_TOMCAT_URL=https://sourceforge.net/projects/lportal/files/Liferay%20Portal/7.0.5%20GA6/liferay-ce-portal-tomcat-7.0-ga6-20180320170724974.zip/download
+ENV LIFERAY_TOMCAT_URL=https://cdn.lfrs.sl/releases.liferay.com/portal/7.0.5-ga6/liferay-ce-portal-tomcat-7.0-ga6-20180320170724974.zip
 
 RUN apt-get -qq update && \
 	apt-get -qq install telnet && \
