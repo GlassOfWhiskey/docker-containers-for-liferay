@@ -3,10 +3,10 @@ LABEL maintainer="GlassOfWhiskey <iacopo.c92@gmail.com>"
 
 WORKDIR /usr/local
 
-ENV LIFERAY_HOME=/usr/local/liferay-ce-portal-7.1-m2
-ENV CATALINA_HOME=$LIFERAY_HOME/tomcat-8.0.32
+ENV LIFERAY_HOME=/usr/local/liferay-ce-portal-7.1-a1
+ENV CATALINA_HOME=$LIFERAY_HOME/tomcat-9.0.6
 ENV PATH=$CATALINA_HOME/bin:$PATH
-ENV LIFERAY_TOMCAT_URL=https://cdn.lfrs.sl/releases.liferay.com/portal/7.1.0-m2/liferay-ce-portal-tomcat-7.1-m2-20180322132024456.zip
+ENV LIFERAY_TOMCAT_URL=https://cdn.lfrs.sl/releases.liferay.com/portal/7.1.0-a1/liferay-ce-portal-tomcat-7.1-a1-20180410105031513.zip
 
 RUN apt-get -qq update && \
 	apt-get -qq install telnet && \
@@ -15,9 +15,9 @@ RUN apt-get -qq update && \
 	useradd -ms /bin/bash liferay && \
 	set -x && \
   	mkdir -p $LIFERAY_HOME && \
-	curl -fSL "$LIFERAY_TOMCAT_URL" -o liferay-ce-portal-tomcat-7.1-m2-20180322132024456 && \
-	unzip liferay-ce-portal-tomcat-7.1-m2-20180322132024456 && \
-	rm liferay-ce-portal-tomcat-7.1-m2-20180322132024456 && \
+	curl -fSL "$LIFERAY_TOMCAT_URL" -o liferay-ce-portal-tomcat-7.1-a1-20180410105031513 && \
+	unzip liferay-ce-portal-tomcat-7.1-a1-20180410105031513 && \
+	rm liferay-ce-portal-tomcat-7.1-a1-20180410105031513 && \
 	rm -rf $CATALINA_HOME/work/* && \
 	chmod 744 $CATALINA_HOME/bin/*.sh && \
 	mkdir -p $LIFERAY_HOME/data/document_library && \

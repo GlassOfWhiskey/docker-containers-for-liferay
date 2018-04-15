@@ -10,4 +10,6 @@
 - Liferay 7.1.0 M1 Dev
 - Liferay 7.1.0 M2
 - Liferay 7.1.0 M2 Dev
+- Liferay 7.1.0 A1
+- Liferay 7.1.0 A1 Dev
 - Elasticsearch 2.4
