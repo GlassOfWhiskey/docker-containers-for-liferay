@@ -6,10 +6,16 @@
 - Liferay 7.0.4 GA5 Dev
 - Liferay 7.0.5 GA6
 - Liferay 7.0.5 GA6 Dev
+- Liferay 7.0.6 GA7
+- Liferay 7.0.6 GA7 Dev
 - Liferay 7.1.0 M1
 - Liferay 7.1.0 M1 Dev
 - Liferay 7.1.0 M2
 - Liferay 7.1.0 M2 Dev
 - Liferay 7.1.0 A1
 - Liferay 7.1.0 A1 Dev
+- Liferay 7.1.0 A2
+- Liferay 7.1.0 A2 Dev
+- Liferay 7.1.0 B1
+- Liferay 7.1.0 B1 Dev
 - Elasticsearch 2.4
