@@ -24,3 +24,4 @@
 - Liferay 7.1.0 GA1 Dev
 - Elasticsearch 2.4
 - Elasticsearch 6.1.3
+- Elasticsearch 6.5.0
